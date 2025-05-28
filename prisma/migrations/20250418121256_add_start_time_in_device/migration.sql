@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `apc_devices` ADD COLUMN `start_time` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3);
